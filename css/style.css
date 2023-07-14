@@ -1,0 +1,94 @@
+* {
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   height: 100vh;
+   background-color: #000;
+}
+
+.container {
+   height: 100vh;
+   display: flex;
+   align-items: center;
+}
+
+.error-massage {
+   color: red;
+   font-style: italic;
+   align-items: center;
+   text-align: center;
+   margin: 15px 0;
+   font-size: 15px;
+}
+
+h2 {
+   color: #fff;
+   font-size: 50px;
+   align-items: center;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+   margin: 15px 0;
+}
+
+.login-form {
+   background-color: #fff;
+   padding: 30px;
+   border-radius: 8px;
+   max-width: 300px;
+   text-align: center;
+}
+
+.login-form input {
+   width: 100%;
+   padding: 15px;
+   margin-bottom: 15px;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+
+.login-form .remember-me {
+   display: flex;
+   float: left;
+}
+
+.login-form .remember-me #remember-me {
+   font-size: small;
+   margin: 0% 10px;
+}
+
+.submit-button {
+   width: 100%;
+   padding: 10px;
+   background: rgb(34, 193, 195);
+   background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(95, 45, 253, 1) 100%);
+   border: 1px solid rgb(34, 193, 195);
+   color: #ffffff;
+   border-radius: 5px;
+   font-size: 16px;
+   cursor: pointer;
+   margin: 10px 0;
+}
+
+.help-text {
+   color: #000;
+   font-size: 14px;
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+#logout {
+   background-color: red;
+   padding: 10px 20px;
+   border-radius: 5px;
+}
+
+#logout a {
+   color: #fff;
+   text-decoration: none;
+}
